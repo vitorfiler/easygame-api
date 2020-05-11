@@ -1,0 +1,92 @@
+2020-05-10 08:45:26,992 40792702 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h32m31s517ms694µs900ns).
+2020-05-10 08:53:00,026 41245736 [http-nio-1002-exec-2] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: 404 : [{"timestamp":"2020-05-10T11:52:59.407+0000","status":404,"error":"Not Found","message":"No message available","path":"/oauth/token_key"}]
+2020-05-10 08:53:00,026 41245736 [http-nio-1002-exec-2] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - cannot create signature verifier
+2020-05-10 08:53:01,296 41247006 [http-nio-1002-exec-2] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-05-10 08:53:02,544 41248254 [http-nio-1002-exec-4] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: 404 : [{"timestamp":"2020-05-10T11:53:02.540+0000","status":404,"error":"Not Found","message":"No message available","path":"/oauth/token_key"}]
+2020-05-10 08:53:02,544 41248254 [http-nio-1002-exec-4] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - cannot create signature verifier
+2020-05-10 08:53:02,553 41248263 [http-nio-1002-exec-6] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: 404 : [{"timestamp":"2020-05-10T11:53:02.540+0000","status":404,"error":"Not Found","message":"No message available","path":"/oauth/token_key"}]
+2020-05-10 08:53:02,553 41248263 [http-nio-1002-exec-6] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - cannot create signature verifier
+2020-05-10 08:53:22,351 41268061 [http-nio-1002-exec-8] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: 404 : [{"timestamp":"2020-05-10T11:53:22.349+0000","status":404,"error":"Not Found","message":"No message available","path":"/oauth/token_key"}]
+2020-05-10 08:53:22,352 41268062 [http-nio-1002-exec-8] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - cannot create signature verifier
+2020-05-10 10:25:50,484 46816194 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m13s570ms604µs600ns).
+2020-05-10 12:39:22,258 54827968 [http-nio-1002-exec-2] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-05-10 12:39:24,351 54830061 [http-nio-1002-exec-5] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-05-10 12:39:24,728 54830438 [http-nio-1002-exec-6] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-05-10 12:39:24,917 54830627 [http-nio-1002-exec-8] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-05-10 22:15:28,324 89394034 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h49m25s502ms713µs800ns).
+2020-05-10 22:16:51,221 89476931 [http-nio-1002-exec-10] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 401 : [no body]
+2020-05-10 22:16:51,221 89476931 [http-nio-1002-exec-3] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 401 : [no body]
+2020-05-10 22:18:40,304 89586014 [http-nio-1002-exec-5] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 401 : [no body]
+2020-05-10 22:18:58,179 89603889 [http-nio-1002-exec-6] ERROR b.c.u.e.s.o.OAuth2AuthenticationService - invalid credentials: 401 : [no body]
+2020-05-10 22:19:18,777 89624487 [RMI TCP Connection(484)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-05-10 22:19:22,117 89627827 [RMI TCP Connection(484)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-10 22:19:22,951 89628661 [RMI TCP Connection(484)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-10 22:19:23,245 89628955 [RMI TCP Connection(484)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-05-10 22:19:27,360 89633070 [RMI TCP Connection(484)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-05-10 22:19:27,575 89633285 [RMI TCP Connection(484)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-05-10 22:19:27,740 89633450 [RMI TCP Connection(484)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-05-10 22:19:28,011 89633721 [RMI TCP Connection(484)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-1002"]
+2020-05-10 22:19:28,984 89634694 [RMI TCP Connection(484)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2020-05-10 22:19:29,194 89634904 [RMI TCP Connection(484)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-05-10 22:19:29,545 89635255 [RMI TCP Connection(484)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)
+2020-05-10 22:19:29,698 89635408 [RMI TCP Connection(484)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-1002"]
+2020-05-10 22:19:29,828 89635538 [RMI TCP Connection(484)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-1002"]
+2020-05-10 22:19:57,954 4626 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-10 22:19:57,960 4632 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-05-10 22:19:57,970 4642 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar
+2020-05-10 22:19:57,971 4643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-10 22:20:00,277 6949 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-05-10 22:20:05,271 11943 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-10 22:20:05,344 12016 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 0 JPA repository interfaces.
+2020-05-10 22:20:06,203 12875 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=4445cbfe-b5f0-3d46-83b4-d5ed340887dd
+2020-05-10 22:20:06,644 13316 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-10 22:20:06,648 13320 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-10 22:20:06,653 13325 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6709caed' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-10 22:20:06,653 13325 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [br.com.una.easygame.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$e8960b91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-10 22:20:06,663 13335 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-10 22:20:07,432 14104 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-05-10 22:20:07,490 14162 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-05-10 22:20:07,491 14163 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-10 22:20:07,492 14164 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-10 22:20:07,673 14345 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-10 22:20:07,673 14345 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7327 ms
+2020-05-10 22:20:08,039 14711 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-10 22:20:08,759 15431 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-10 22:20:08,779 15451 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-05-10 22:20:09,695 16367 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-10 22:20:10,148 16820 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-10 22:20:10,728 17400 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-10 22:20:11,120 17792 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-10 22:20:11,577 18249 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-10 22:20:11,597 18269 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-10 22:20:11,699 18371 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-10 22:20:13,938 20610 [restartedMain] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: I/O error on GET request for "http://localhost:1002/oauth/token_key": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-05-10 22:20:13,946 20618 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-05-10 22:20:14,210 20882 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-10 22:20:14,335 21007 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-05-10 22:20:14,340 21012 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-10 22:20:14,341 21013 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-10 22:20:14,362 21034 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-05-10 22:20:14,363 21035 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-10 22:20:14,837 21509 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-10 22:20:15,806 22478 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6a961104-2ef9-4ec2-a605-c3b366f0904f
+
+2020-05-10 22:20:16,436 23108 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36980f46, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a075e6d, org.springframework.security.web.header.HeaderWriterFilter@52d7d694, org.springframework.security.web.authentication.logout.LogoutFilter@14fa5add, br.com.una.easygame.web.filter.RefreshTokenFilter@3dd9f5cd, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@459fa598, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77b48370, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@203e463b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23dce121, org.springframework.security.web.session.SessionManagementFilter@4205f4b, org.springframework.security.web.access.ExceptionTranslationFilter@78f93d97, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b56f9f2]
+2020-05-10 22:20:19,723 26395 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-10 22:20:19,979 26651 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-05-10 22:20:20,053 26725 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-05-10 22:20:21,703 28375 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 27.332 seconds (JVM running for 33.002)
+2020-05-10 22:20:53,020 59692 [http-nio-1002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-10 22:20:53,021 59693 [http-nio-1002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-10 22:20:53,039 59711 [http-nio-1002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
