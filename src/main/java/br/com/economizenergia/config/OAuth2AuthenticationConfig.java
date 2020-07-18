@@ -1,4 +1,4 @@
-package br.com.una.easygame.config;
+package br.com.economizenergia.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,13 +14,13 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
-import br.com.una.easygame.security.oauth2.CookieTokenExtractor;
-import br.com.una.easygame.security.oauth2.OAuth2AuthenticationService;
-import br.com.una.easygame.security.oauth2.OAuth2CookieHelper;
-import br.com.una.easygame.security.oauth2.OAuth2SignatureVerifierClient;
-import br.com.una.easygame.security.oauth2.OAuth2TokenEndpointClient;
-import br.com.una.easygame.security.oauth2.SecuritySignatureVerifierClient;
-import br.com.una.easygame.web.filter.RefreshTokenFilterConfigurer;
+import br.com.economizenergia.security.oauth2.CookieTokenExtractor;
+import br.com.economizenergia.security.oauth2.OAuth2AuthenticationService;
+import br.com.economizenergia.security.oauth2.OAuth2CookieHelper;
+import br.com.economizenergia.security.oauth2.OAuth2SignatureVerifierClient;
+import br.com.economizenergia.security.oauth2.OAuth2TokenEndpointClient;
+import br.com.economizenergia.security.oauth2.SecuritySignatureVerifierClient;
+import br.com.economizenergia.web.filter.RefreshTokenFilterConfigurer;
 
 @Configuration
 @EnableResourceServer

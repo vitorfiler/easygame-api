@@ -1,11 +1,12 @@
-package br.com.una.easygame.config;
+package br.com.economizenergia.config;
 
-import br.com.una.easygame.security.oauth2.OAuth2SignatureVerifierClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.jwt.crypto.sign.SignatureVerifier;
 import org.springframework.security.oauth2.common.exceptions.InvalidTokenException;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
+
+import br.com.economizenergia.security.oauth2.OAuth2SignatureVerifierClient;
 
 import java.util.Map;
 

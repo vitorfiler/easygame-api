@@ -1,4 +1,4 @@
-package br.com.una.easygame.security.oauth2;
+package br.com.economizenergia.security.oauth2;
 
 import org.apache.http.conn.util.PublicSuffixMatcher;
 import org.apache.http.conn.util.PublicSuffixMatcherLoader;

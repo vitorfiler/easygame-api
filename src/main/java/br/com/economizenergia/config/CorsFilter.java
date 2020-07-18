@@ -1,4 +1,4 @@
-package br.com.una.easygame.config;
+package br.com.economizenergia.config;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

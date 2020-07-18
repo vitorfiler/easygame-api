@@ -1,4 +1,4 @@
-package br.com.una.easygame.security.oauth2;
+package br.com.economizenergia.security.oauth2;
 
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.stereotype.Component;

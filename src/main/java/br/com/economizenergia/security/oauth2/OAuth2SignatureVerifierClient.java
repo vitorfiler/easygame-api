@@ -1,4 +1,4 @@
-package br.com.una.easygame.security.oauth2;
+package br.com.economizenergia.security.oauth2;
 
 import org.springframework.security.jwt.crypto.sign.SignatureVerifier;
 import org.springframework.stereotype.Component;

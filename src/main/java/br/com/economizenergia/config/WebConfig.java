@@ -1,4 +1,4 @@
-package br.com.una.easygame.config;
+package br.com.economizenergia.config;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package br.com.una.easygame.security.oauth2;
+package br.com.economizenergia.security.oauth2;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

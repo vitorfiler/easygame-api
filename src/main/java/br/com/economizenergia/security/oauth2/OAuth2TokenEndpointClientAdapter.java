@@ -1,4 +1,4 @@
-package br.com.una.easygame.security.oauth2;
+package br.com.economizenergia.security.oauth2;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
@@ -51,6 +51,6 @@ public abstract class OAuth2TokenEndpointClientAdapter implements OAuth2TokenEnd
 
     protected String getTokenEndpoint() {
         //TODO: parametrizar endpoint
-        return "http://localhost:1015/oauth/token";
+        return "http://localhost:1010/oauth/token";
     }
 }
