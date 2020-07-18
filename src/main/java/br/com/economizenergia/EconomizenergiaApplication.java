@@ -1,13 +1,13 @@
-package br.com.una.easygame;
+package br.com.economizenergia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EasygameApplication {
+public class EconomizenergiaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EasygameApplication.class, args);
+		SpringApplication.run(EconomizenergiaApplication.class, args);
 	}
 
 }

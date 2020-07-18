@@ -1,4 +1,4 @@
-package br.com.una.easygame.security;
+package br.com.economizenergia.security;
 
 public final class SecurityUtils {
 

@@ -9,10 +9,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.una</groupId>
-	<artifactId>easygame-api</artifactId>
+	<groupId>br.com</groupId>
+	<artifactId>economizenergia-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>easygame-api</name>
+	<name>economizenergia-api</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

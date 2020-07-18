@@ -1,7 +1,5 @@
-package br.com.una.easygame.web.filter;
+package br.com.economizenergia.web.filter;
 
-import br.com.una.easygame.security.oauth2.OAuth2AuthenticationService;
-import br.com.una.easygame.security.oauth2.OAuth2CookieHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.common.exceptions.ClientAuthenticationException;
@@ -10,6 +8,9 @@ import org.springframework.security.oauth2.common.exceptions.UnauthorizedClientE
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.filter.GenericFilterBean;
+
+import br.com.economizenergia.security.oauth2.OAuth2AuthenticationService;
+import br.com.economizenergia.security.oauth2.OAuth2CookieHelper;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package br.com.una.easygame.web.rest;
+package br.com.economizenergia.web.rest;
 
 import java.util.Map;
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.una.easygame.security.oauth2.OAuth2AuthenticationService;
+import br.com.economizenergia.security.oauth2.OAuth2AuthenticationService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController

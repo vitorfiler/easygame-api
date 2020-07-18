@@ -1,0 +1,311 @@
+2020-07-16 16:55:29,380 1618 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-16 16:55:29,388 1626 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-07-16 16:55:29,388 1626 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar
+2020-07-16 16:55:29,388 1626 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-16 16:55:30,393 2631 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-07-16 16:55:31,550 3788 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 16:55:31,579 3817 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 JPA repository interfaces.
+2020-07-16 16:55:31,828 4066 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=4445cbfe-b5f0-3d46-83b4-d5ed340887dd
+2020-07-16 16:55:31,985 4223 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:55:31,988 4226 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:55:31,991 4229 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6594d1d6' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:55:31,993 4231 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [br.com.una.easygame.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$2faf7aca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:55:31,999 4237 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:55:32,560 4798 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 16:55:32,612 4850 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:55:32,613 4851 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 16:55:32,613 4851 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 16:55:32,760 4998 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 16:55:32,760 4998 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2354 ms
+2020-07-16 16:55:33,085 5323 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-16 16:55:33,377 5615 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-16 16:55:33,384 5622 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 16:55:33,785 6023 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 16:55:33,858 6096 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-16 16:55:34,063 6301 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-16 16:55:35,370 7608 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 16:55:35,986 8224 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 16:55:36,009 8247 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:55:36,061 8299 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 16:55:38,280 10518 [restartedMain] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: I/O error on GET request for "http://localhost:1002/oauth/token_key": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-07-16 16:55:38,300 10538 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-07-16 16:55:38,450 10688 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 16:55:38,529 10767 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 16:55:38,533 10771 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:55:38,533 10771 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:55:38,537 10775 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:55:38,537 10775 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:55:38,729 10967 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:55:39,034 11272 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 3c07ead0-2bc2-4d06-9562-0aeb9c86470f
+
+2020-07-16 16:55:39,426 11664 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fb6a432, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cdc7329, org.springframework.security.web.header.HeaderWriterFilter@26693c1c, org.springframework.security.web.authentication.logout.LogoutFilter@4023c75, br.com.una.easygame.web.filter.RefreshTokenFilter@51325943, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5f8a7884, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6364e180, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18a5babd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f921e4f, org.springframework.security.web.session.SessionManagementFilter@5d1f7306, org.springframework.security.web.access.ExceptionTranslationFilter@11fc9dd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36955b8a]
+2020-07-16 16:55:40,868 13106 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 16:55:40,967 13205 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:55:41,043 13281 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 16:55:41,717 13955 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 13.608 seconds (JVM running for 15.644)
+2020-07-16 16:56:35,259 67497 [Thread-7] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:56:35,290 67528 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:56:35,291 67529 [Thread-7] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-16 16:56:35,543 67781 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-07-16 16:56:35,545 67783 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-07-16 16:56:35,548 67786 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-07-16 16:56:37,461 69699 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-07-16 16:56:38,063 70301 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 16:56:38,072 70310 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-07-16 16:56:38,159 70397 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=4445cbfe-b5f0-3d46-83b4-d5ed340887dd
+2020-07-16 16:56:38,197 70435 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:38,198 70436 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:38,199 70437 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@371365ac' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:38,200 70438 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [br.com.una.easygame.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$2faf7aca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:38,201 70439 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:38,278 70516 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 16:56:38,279 70517 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:56:38,279 70517 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 16:56:38,280 70518 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 16:56:38,318 70556 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 16:56:38,318 70556 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 854 ms
+2020-07-16 16:56:38,406 70644 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2020-07-16 16:56:38,409 70647 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2020-07-16 16:56:38,409 70647 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 16:56:38,537 70775 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 16:56:38,544 70782 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 16:56:38,559 70797 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 16:56:38,559 70797 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:56:38,582 70820 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 16:56:40,601 72839 [restartedMain] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: I/O error on GET request for "http://localhost:1002/oauth/token_key": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-07-16 16:56:40,601 72839 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-07-16 16:56:40,632 72870 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 16:56:40,664 72902 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 16:56:40,664 72902 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:56:40,664 72902 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:56:40,737 72975 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:56:40,873 73111 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2a481924-2256-428e-8271-eec3e1f35bad
+
+2020-07-16 16:56:40,908 73146 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10599e16, org.springframework.security.web.context.SecurityContextPersistenceFilter@6213caf0, org.springframework.security.web.header.HeaderWriterFilter@757cd867, org.springframework.security.web.authentication.logout.LogoutFilter@7029d72e, br.com.una.easygame.web.filter.RefreshTokenFilter@18955815, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3dea064c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f7fc880, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cd384e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50f35e46, org.springframework.security.web.session.SessionManagementFilter@4a79476b, org.springframework.security.web.access.ExceptionTranslationFilter@1a2cf7ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43f16bfa]
+2020-07-16 16:56:42,249 74487 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 16:56:42,303 74541 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:56:42,306 74544 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 16:56:43,052 75290 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 6.948 seconds (JVM running for 76.979)
+2020-07-16 16:56:43,054 75292 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-07-16 16:56:45,405 77643 [Thread-12] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:56:45,406 77644 [Thread-12] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:56:45,406 77644 [Thread-12] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-16 16:56:45,608 77846 [Thread-12] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-07-16 16:56:45,609 77847 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-07-16 16:56:45,612 77850 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-07-16 16:56:47,441 79679 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-07-16 16:56:47,893 80131 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 16:56:47,904 80142 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-07-16 16:56:47,982 80220 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=4445cbfe-b5f0-3d46-83b4-d5ed340887dd
+2020-07-16 16:56:48,018 80256 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:48,019 80257 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:48,020 80258 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@70c45995' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:48,021 80259 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [br.com.una.easygame.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$2faf7aca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:48,022 80260 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 16:56:48,097 80335 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 16:56:48,097 80335 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:56:48,098 80336 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 16:56:48,098 80336 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 16:56:48,138 80376 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 16:56:48,138 80376 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 694 ms
+2020-07-16 16:56:48,221 80459 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2020-07-16 16:56:48,223 80461 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2020-07-16 16:56:48,223 80461 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 16:56:48,352 80590 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 16:56:48,358 80596 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 16:56:48,373 80611 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 16:56:48,373 80611 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:56:48,396 80634 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 16:56:50,415 82653 [restartedMain] ERROR b.c.u.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: I/O error on GET request for "http://localhost:1002/oauth/token_key": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-07-16 16:56:50,416 82654 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-07-16 16:56:50,441 82679 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 16:56:50,469 82707 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 16:56:50,469 82707 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:56:50,469 82707 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:56:50,536 82774 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:56:50,678 82916 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 77db2c36-fffe-446f-82dd-3d0940b038c7
+
+2020-07-16 16:56:50,707 82945 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a32d2b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@4567d484, org.springframework.security.web.header.HeaderWriterFilter@23d60d4, org.springframework.security.web.authentication.logout.LogoutFilter@7dc2b96, br.com.una.easygame.web.filter.RefreshTokenFilter@24a3c58c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@43441a7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@297d7323, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@402f8d18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ab8605b, org.springframework.security.web.session.SessionManagementFilter@66fb5196, org.springframework.security.web.access.ExceptionTranslationFilter@2e3849d2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7181fc87]
+2020-07-16 16:56:51,991 84229 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 16:56:52,036 84274 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:56:52,039 84277 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 16:56:52,687 84925 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 6.577 seconds (JVM running for 86.613)
+2020-07-16 16:56:52,689 84927 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-07-16 16:57:19,352 111590 [Thread-20] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:57:19,353 111591 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:57:19,353 111591 [Thread-20] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-16 16:57:19,556 111794 [Thread-20] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-07-16 16:57:19,557 111795 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-07-16 16:57:19,560 111798 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2020-07-16 16:57:21,419 113657 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-07-16 16:57:21,855 114093 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 16:57:21,856 114094 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-07-16 16:57:21,927 114165 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=35312d4d-59e8-3439-a34b-6aa883622328
+2020-07-16 16:57:22,016 114254 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 16:57:22,017 114255 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:57:22,017 114255 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 16:57:22,017 114255 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 16:57:22,053 114291 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 16:57:22,054 114292 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 632 ms
+2020-07-16 16:57:22,123 114361 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2020-07-16 16:57:22,125 114363 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2020-07-16 16:57:22,125 114363 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 16:57:22,221 114459 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 16:57:22,229 114467 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 16:57:22,243 114481 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 16:57:22,243 114481 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:57:22,258 114496 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 16:57:22,264 114502 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 16:57:22,264 114502 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:57:22,264 114502 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:57:22,287 114525 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 16:57:22,329 114567 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:57:22,436 114674 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e7cf08fa-e3b9-4895-ac17-87d9b327310c
+
+2020-07-16 16:57:22,462 114700 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f391e99, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cd5c1fb, org.springframework.security.web.header.HeaderWriterFilter@8ee735a, org.springframework.security.web.csrf.CsrfFilter@514e620f, org.springframework.security.web.authentication.logout.LogoutFilter@15cbc488, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@573e645, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@561c4a81, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1b1036c9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@548cd158, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f59f078, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24d62c6a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35e82d9e, org.springframework.security.web.session.SessionManagementFilter@3ea9923b, org.springframework.security.web.access.ExceptionTranslationFilter@6524cd74, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@758a8072]
+2020-07-16 16:57:23,756 115994 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 16:57:23,787 116025 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:57:23,794 116032 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 16:57:24,463 116701 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 4.401 seconds (JVM running for 118.391)
+2020-07-16 16:57:24,469 116707 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   OAuth2MethodSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration; SearchStrategy: all) did not find any beans of type org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.oauth2.common.OAuth2AccessToken' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-07-16 16:58:22,274 174512 [Thread-28] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:58:22,275 174513 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:58:22,275 174513 [Thread-28] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-07-16 16:58:22,483 174721 [Thread-28] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-07-16 16:58:22,484 174722 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2020-07-16 16:58:22,485 174723 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2020-07-16 16:58:24,446 176684 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - No active profile set, falling back to default profiles: default
+2020-07-16 16:58:24,877 177115 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 16:58:24,878 177116 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-07-16 16:58:24,945 177183 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=35312d4d-59e8-3439-a34b-6aa883622328
+2020-07-16 16:58:25,025 177263 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 16:58:25,026 177264 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:58:25,026 177264 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 16:58:25,026 177264 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 16:58:25,064 177302 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 16:58:25,064 177302 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 615 ms
+2020-07-16 16:58:25,117 177355 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2020-07-16 16:58:25,118 177356 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2020-07-16 16:58:25,118 177356 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 16:58:25,207 177445 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 16:58:25,213 177451 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 16:58:25,226 177464 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 16:58:25,226 177464 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 16:58:25,238 177476 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 16:58:25,243 177481 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 16:58:25,244 177482 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 16:58:25,244 177482 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 16:58:25,266 177504 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 16:58:25,304 177542 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 16:58:25,393 177631 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c84f2bcc-14c8-4a54-94e9-206da08ad44c
+
+2020-07-16 16:58:25,401 177639 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62dccafd, org.springframework.security.web.context.SecurityContextPersistenceFilter@470de214, org.springframework.security.web.header.HeaderWriterFilter@122c84bb, org.springframework.security.web.csrf.CsrfFilter@70592846, org.springframework.security.web.authentication.logout.LogoutFilter@b3fb648, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d1b25a2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47f87a4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4fad80f5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5663f94f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@735a9105, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a5ca89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b7f9a97, org.springframework.security.web.session.SessionManagementFilter@7eaffe9f, org.springframework.security.web.access.ExceptionTranslationFilter@16a458e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b4ad2c9]
+2020-07-16 16:58:26,634 178872 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 16:58:26,676 178914 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 16:58:26,679 178917 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 16:58:27,296 179534 [restartedMain] INFO  b.c.u.easygame.EasygameApplication - Started EasygameApplication in 4.305 seconds (JVM running for 181.223)
+2020-07-16 16:58:27,298 179536 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-07-16 17:04:21,970 534208 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-07-16 17:04:33,083 1350 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/evito/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-07-16 17:04:33,088 1355 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2020-07-16 17:04:33,089 1356 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\evito\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/evito/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar
+2020-07-16 17:04:33,089 1356 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-16 17:04:34,054 2321 [restartedMain] INFO  b.c.e.EconomizenergiaApplication - No active profile set, falling back to default profiles: default
+2020-07-16 17:04:35,212 3479 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-16 17:04:35,237 3504 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2020-07-16 17:04:35,472 3739 [restartedMain] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=bc679a3c-c660-399f-961e-b6fe852a7bfc
+2020-07-16 17:04:35,629 3896 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 17:04:35,632 3899 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 17:04:35,635 3902 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@f6eda78' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 17:04:35,637 3904 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityConfig' of type [br.com.economizenergia.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$f0947ee1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 17:04:35,643 3910 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-16 17:04:35,982 4249 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2020-07-16 17:04:35,992 4259 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1002"]
+2020-07-16 17:04:35,992 4259 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-16 17:04:35,993 4260 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-16 17:04:36,107 4374 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-16 17:04:36,107 4374 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2039 ms
+2020-07-16 17:04:36,278 4545 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-07-16 17:04:36,416 4683 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-07-16 17:04:36,422 4689 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:core'
+2020-07-16 17:04:36,704 4971 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-16 17:04:36,770 5037 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-16 17:04:36,888 5155 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-16 17:04:36,986 5253 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-16 17:04:37,202 5469 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-16 17:04:37,209 5476 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-16 17:04:37,267 5534 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-07-16 17:04:39,365 7632 [restartedMain] ERROR b.c.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: I/O error on GET request for "http://localhost:1002/oauth/token_key": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-07-16 17:04:39,368 7635 [restartedMain] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-07-16 17:04:39,465 7732 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-16 17:04:39,510 7777 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2020-07-16 17:04:39,513 7780 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 17:04:39,513 7780 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 17:04:39,517 7784 [restartedMain] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-07-16 17:04:39,518 7785 [restartedMain] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-16 17:04:39,678 7945 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-16 17:04:39,978 8245 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2eb55bd4-256b-449c-968b-93772c8c69f7
+
+2020-07-16 17:04:40,198 8465 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1eb3a703, org.springframework.security.web.context.SecurityContextPersistenceFilter@227c1326, org.springframework.security.web.header.HeaderWriterFilter@4bc68e38, org.springframework.security.web.authentication.logout.LogoutFilter@58ba723e, br.com.economizenergia.web.filter.RefreshTokenFilter@b30a260, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5e55e54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@edd693a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cc0ce36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7678bb79, org.springframework.security.web.session.SessionManagementFilter@72aa8950, org.springframework.security.web.access.ExceptionTranslationFilter@3d169ca2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15709a19]
+2020-07-16 17:04:41,574 9841 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-07-16 17:04:41,668 9935 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2020-07-16 17:04:41,691 9958 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2020-07-16 17:04:42,342 10609 [restartedMain] INFO  b.c.e.EconomizenergiaApplication - Started EconomizenergiaApplication in 10.349 seconds (JVM running for 11.637)
+2020-07-16 17:07:05,014 153281 [http-nio-1002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-16 17:07:05,016 153283 [http-nio-1002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-16 17:07:05,059 153326 [http-nio-1002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 43 ms
+2020-07-16 17:07:05,485 153752 [http-nio-1002-exec-1] ERROR b.c.e.c.OAuth2JwtAccessTokenConverter - error in tryCreateSignatureVerifier: 404 : [{"timestamp":"2020-07-16T20:07:05.313+0000","status":404,"error":"Not Found","message":"No message available","path":"/oauth/token_key"}]
+2020-07-16 17:07:05,485 153752 [http-nio-1002-exec-1] ERROR b.c.e.c.OAuth2JwtAccessTokenConverter - cannot create signature verifier
+2020-07-16 17:11:55,503 443770 [http-nio-1002-exec-6] ERROR b.c.e.s.o.OAuth2AuthenticationService - invalid credentials: 400 : [{"error":"invalid_grant","error_description":"Bad credentials"}]
+2020-07-16 18:14:45,057 4213324 [RMI TCP Connection(77)-127.0.0.1] WARN  javax.management.remote.misc - The server has decided to close this client connection.

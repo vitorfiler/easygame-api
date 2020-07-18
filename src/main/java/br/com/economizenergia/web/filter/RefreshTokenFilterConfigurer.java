@@ -1,11 +1,12 @@
-package br.com.una.easygame.web.filter;
+package br.com.economizenergia.web.filter;
 
-import br.com.una.easygame.security.oauth2.OAuth2AuthenticationService;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.web.DefaultSecurityFilterChain;
+
+import br.com.economizenergia.security.oauth2.OAuth2AuthenticationService;
 
 public class RefreshTokenFilterConfigurer extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
 
